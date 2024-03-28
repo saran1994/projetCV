@@ -1,0 +1,198 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+body {
+  background: #cccdcf;
+  font-size: 14px;
+  line-height: 22px;
+  color: #555555;
+  
+  
+}
+
+main {
+  width: 210mm;
+  height: 297mm;
+  display: flex;
+  margin: 2px auto ;
+  list-style: square;
+  
+}
+
+
+
+/* fin style pour section gauche */
+main .section_left {
+  width: 280px;
+  background: #417694;
+  text-align: center;
+  
+}
+
+/* style pour image profil */
+.profile {
+  width: 100%;
+  height: 250px;
+}
+
+.profile img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* style pour icone */
+
+.icon img{
+  width: 25px; 
+  height: 25px;
+ 
+}
+
+.icone img{
+  width: 8px; 
+  height: 8px;
+  margin-right: 3px;
+}
+
+
+/*  style pour contenu section gauche */
+
+ .section_content {
+  padding: 0 25px;
+  
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 20px;
+ 
+}
+
+.semi-bold {
+  font-weight: 500;
+  font-size: 16px;
+ 
+}
+
+main .title {
+  margin-bottom: 20px;
+}
+
+main .section_left .bold {
+  color: #fff;
+  
+}
+
+main .section_left .regular {
+  color: #417694;
+  
+}
+
+main .section_item {
+  padding: 25px 0;
+  list-style: square;
+  
+}
+
+
+ .section_left ul li {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+  
+}
+
+
+main .section_left .data {
+  color: #fcfbfa;
+  
+}
+
+ .skills ul li {
+  display: flex;
+  margin-bottom: 10px;
+  color: #ffffff;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+ .skills  .skill_progress {
+  width: 60%;
+  margin: 0 5px;
+  height: 5px;
+  background: #000000;
+  border-radius: 5px;
+  position: relative;
+}
+
+ 
+
+ .skills ul li .skill_progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: #fff;
+}
+
+
+/* fin style pour section droite */
+main .section_right {
+  width: 520px;
+  background: #fff;
+  padding: 25px;
+}
+
+main .section_right .bold {
+  color: #417694;
+}
+
+main .section_right .resume_exp ul,
+main .section_right .resume_formation ul {
+  padding-left: 40px;
+  overflow: hidden;
+ 
+}
+
+main .section_right ul li {
+  position: relative;
+}
+
+
+main .section_right ul li .date {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+main .section_right ul li .info {
+  margin-bottom: 20px;
+}
+
+main .section_right ul li:last-child .info {
+  margin-bottom: 0;
+}
+
+ .resume_comp ul li {
+  
+  color: #000000;
+  position: absolute;
+ font-weight: 500;
+  left: 40px;
+ 
+}
+
+
+
+
+ 
